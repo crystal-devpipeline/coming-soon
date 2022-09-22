@@ -1,0 +1,19 @@
+.hero-container{
+    height: 425px;
+    width: 925px;
+    background-image: url("http://source.unsplash.com/random/?boardwalk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 30px;
+    text-align: center;
+
+}
+
+.hero-container .hero-header {}
+.hero-container .hero-mid-border {
+    width: 612px;
+    margin: 39px auto 0;
+    border: 3px solid white;
+    transform-origin: left center;
+}
