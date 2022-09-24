@@ -1,3 +1,6 @@
+/* EM: element
+REM: root element */
+
 .hero-container{
     height: 425px;
     width: 925px;
@@ -11,9 +14,67 @@
 }
 
 .hero-container .hero-header {}
+.hero-container .hero-header h5{
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin: 0 111px;
+}
+.hero-container .hero-header h1{
+    text-shadow: 2px 2px 8px rgb(51 50 95 / 40%);
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin: 22px 35px 0;
+    font-size: 4.5rem;
+}
+.hero-container .hero-header h3{
+    letter-spacing: 3px;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+}
+
 .hero-container .hero-mid-border {
     width: 612px;
     margin: 39px auto 0;
     border: 3px solid white;
     transform-origin: left center;
+}
+
+.hero-container .hero-call-to-action-container {
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 1.75px;
+}
+
+.hero-container .hero-call-to-action-container a {
+    color: inherit;
+}
+
+.hero-container .hero-call-to-action-container a:hover {
+    text-decoration: none;
+    filter: brightness(.95);
+}
+.hero-container .hero-call-to-action-container .notify-btn-wrapper{
+    margin-top: 45px;
+}
+
+.hero-container .hero-call-to-action-container .notify-btn-wrapper button {
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #f1680e;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 25px 50px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s ease-in-out all;
+}
+
+.hero-container .hero-call-to-action-container .notify-btn-wrapper button:hover{
+    background-color: white;
+    color: #f1680e;
+
+
 }
